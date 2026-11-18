@@ -289,10 +289,6 @@
   text-transform: uppercase;
 }
 
-.dialog__form {
-  display: grid;
-}
-
 .dialog__button {
   inline-size: 100%;
 }
