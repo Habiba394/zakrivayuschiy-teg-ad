@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -11,8 +14,504 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header">
+      <div class="header__logo">
+        <h1 class="header__title">&lt;/HTML&gt;</h1>
+        <p class="header__subtitle">Закрывающий тег</p>
+      </div>
+    </header>
+    <main class="content">
+      <ul class="cards">
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_anticipation"
+                src="./images/card-1.webp"
+                alt="Ночной фудтрак с красным навесом стоит на дороге под луной и звёздами"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Предвкушение</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+                <p>Главное здесь — предвкушение: впереди новое дело, и оно манит.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_curiosity"
+                src="./images/card-2.webp"
+                alt="Фудтрак на рассвете: розовое небо и низкое солнце над дорогой"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Любопытство</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>Первый спринт — это работа с чистого листа. Новые термины, первые теги и ощущение, что всё только начинается.</p>
+                <p>Всё было незнакомым, но именно это и подстёгивало двигаться дальше.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">2 спринт: Первые теги и первая страница</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_excitement"
+                src="./images/card-3.webp"
+                alt="Фудтрак ясным днём: голубое небо, облака и зелёные холмы"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Азарт</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>Теги складываются в страницы. Появляются заголовки, списки, ссылки и картинки, а вместе с ними — первое «получилось!».</p>
+                <p>Увидеть свою страницу в браузере — маленькая победа, ради которой хочется продолжать.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">2 спринт: Селекторы и первые стили</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_doubt"
+                src="./images/card-4.webp"
+                alt="Фудтрак под дождём: серое небо и мокрая дорога"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Сомнение</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>CSS добавляет цвет, шрифты и отступы. Селекторы и каскад поначалу путают, а одна лишняя точка может сломать всё.</p>
+                <p>Бывали минуты сомнений, но почти всегда причина находилась в одном-единственном символе.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">3 спринт: Блоки, потоки и позиционирование</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_effort"
+                src="./images/card-5.webp"
+                alt="Фудтрак на закате: оранжевое небо и большое солнце у горизонта"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Упорство</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>Блоки живут по своим правилам, и их нужно научиться понимать. Позиционирование и потоки требуют терпения и внимательности.</p>
+                <p>Здесь пригодилось упорство: переделывать, пробовать снова и не сдаваться.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">3 спринт: Flexbox — порядок появился</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_calm"
+                src="./images/card-6.webp"
+                alt="Фудтрак зимой: снег идёт над заснеженной дорогой"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Спокойствие</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>Flex помогает выстроить элементы в ряд, выровнять их и наконец навести порядок в разметке.</p>
+                <p>Пришло спокойствие: инструменты знакомы, и можно пробовать новое.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">4 спринт: Адаптив и резиновая вёрстка</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_fatigue"
+                src="./images/card-7.webp"
+                alt="Фудтрак ночью в облаках: тёмное небо и звёзды"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Усталость</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>Адаптив, переменные и анимации: проект разрастается, дедлайны приближаются, а мелочей становится всё больше.</p>
+                <p>Накопилась усталость, но каждая решённая задача возвращала силы.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article class="card">
+            <h2 class="card__title">4 спринт: Проектная работа — закрываем тег</h2>
+            <div class="card__image-wrapper">
+              <img
+                class="card__image card__image_filter_pride"
+                src="./images/card-8.webp"
+                alt="Зелёный фудтрак на фоне ясного неба и зелёных холмов"
+                width="800"
+                height="800"
+                loading="lazy"
+              />
+              <p class="card__label">Гордость</p>
+            </div>
+            <div class="card__content">
+              <div class="card__text">
+                <p>Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть цель.</p>
+                <p>Гордость за пройденный путь: от первой строчки кода до готового сайта.</p>
+              </div>
+              <div class="card__actions">
+                <button
+                  class="card__icon-button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                >
+                  <svg class="like-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <g class="heart">
+                      <path
+                        class="main-body"
+                        fill="transparent"
+                        d="M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="contour"
+                        fill="var(--contour-color)"
+                        fill-rule="evenodd"
+                        d="M12 20C12 20 4 14.5 4 9C4 6.2 6.2 4.5 8.3 4.5C9.9 4.5 11.3 5.4 12 6.7C12.7 5.4 14.1 4.5 15.7 4.5C17.8 4.5 20 6.2 20 9C20 14.5 12 20 12 20Z M12 18C12 18 6 13.875 6 9.75C6 7.65 7.65 6.375 9.225 6.375C10.425 6.375 11.475 7.05 12 8.025C12.525 7.05 13.575 6.375 14.775 6.375C16.35 6.375 18 7.65 18 9.75C18 13.875 12 18 12 18Z"
+                      />
+                      <path
+                        class="core"
+                        fill="transparent"
+                        d="M12 15.2C12 15.2 8.8 13 8.8 10.8C8.8 9.68 9.68 9 10.52 9C11.16 9 11.72 9.36 12 9.88C12.28 9.36 12.84 9 13.48 9C14.32 9 15.2 9.68 15.2 10.8C15.2 13 12 15.2 12 15.2Z"
+                      />
+                    </g>
+                    <path
+                      class="sparks"
+                      fill="var(--animation-fill-color)"
+                      d="M1.5 4h1.5v1.5H1.5z M0.5 9h1.5v1.5H0.5z M21 3.5h1.5V5H21z M22 9h1.5v1.5H22z M6 0.8h1.5v1.5H6z M16.5 0.8H18v1.5h-1.5z M11.2 0h1.6v1.6h-1.6z M3.5 14.5h1.5V16H3.5z M19 14.5h1.5V16H19z"
+                    />
+                  </svg>
+                </button>
+                <button class="button card__like-button" type="button">
+                  <span class="button__text">Like</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <button class="button footer__button" type="button">
+        <svg class="button__icon" aria-hidden="true" focusable="false">
+          <use href="./svg/sprite.svg#floppy"></use>
+        </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
+    </footer>
+    <dialog class="dialog" aria-labelledby="dialog-text">
+      <div class="dialog__content">
+        <svg class="dialog__icon" aria-hidden="true" focusable="false">
+          <use href="./svg/sprite.svg#floppy"></use>
+        </svg>
+        <p class="dialog__text" id="dialog-text">
+          Вставьте дискету, чтобы продолжить
+        </p>
+      </div>
+      <form class="dialog__form" method="dialog">
+        <button class="button dialog__button" type="submit">
+          <span class="button__text">ОК</span>
+        </button>
+      </form>
+    </dialog>
     <script src="./scripts/like.js"></script>
+    <script src="./scripts/dialog.js"></script>
   </body>
 </html>

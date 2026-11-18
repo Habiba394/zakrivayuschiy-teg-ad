@@ -1,1 +1,64 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* В этом файле хранятся все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  /* шрифты */
+  --font-inter: "Inter", Arial, sans-serif;
+  --font-press-start: "Press Start 2P", "Courier New", monospace;
+
+  /* вес вариативного шрифта */
+  --card-text-weight: 400;
+  --card-title-weight: 700;
+
+  /* цвета */
+  --main-color: #000;
+  --background-color: #fff;
+  --accent-color: #e5322d;
+  --animation-fill-color: #e5322d;
+  --contour-color: #000;
+  --button-text-color: #fff;
+  --button-fill-color: #fff;
+  --button-hover-color: #000;
+  --label-stroke-color: #fff;
+  --backdrop-color: rgb(0 0 0 / 65%);
+
+  /* фон страницы: сетка из линий + затемнение сверху вниз */
+  --page-background-color: #e7e7e7;
+  --page-background-gradient:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  /* резиновая ширина блоков (шапка, карточки) */
+  --block-width: clamp(320px, 100%, 700px);
+  --block-border: 2px solid var(--main-color);
+
+  /* шапка: расчёт clamp между 375px и 1440px экрана */
+  --header-padding-block: clamp(120px, 117.18px + 0.751vw, 128px);
+  --header-padding-inline: clamp(14px, 4.56px + 2.52vw, 40px);
+  --logo-title-size: clamp(49px, 43.37px + 1.502vw, 65px);
+  --logo-subtitle-size: clamp(17px, 14.89px + 0.563vw, 23px);
+  --logo-gap: clamp(17px, 15.94px + 0.282vw, 20px);
+
+  /* отступы между блоками страницы */
+  --page-gap: 50px;
+  --page-offset-top: 100px;
+  --page-offset-bottom: 100px;
+
+  /* кнопки */
+  --button-font-size: 14px;
+  --button-padding: 9px 17px;
+  --button-height: 38px;
+
+  /* диалог */
+  --dialog-width: min(353px, 100% - 34px);
+  --dialog-padding: 28px;
+}
+
+@media (width <= 375px) {
+  :root {
+    --dialog-padding: 28px 38px;
+    --header-padding-inline: 0;
+    --logo-title-size: 13.07vw;
+    --logo-subtitle-size: 4.53vw;
+  }
+}
